@@ -28,5 +28,5 @@ module Myapp
   end
 end
 
-ruby "2.2.4"
+
 
