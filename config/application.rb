@@ -2,8 +2,6 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
-ruby "2.2.4"
-
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
@@ -29,4 +27,6 @@ module Myapp
     config.active_record.raise_in_transactional_callbacks = true
   end
 end
+
+ruby "2.2.4"
 
