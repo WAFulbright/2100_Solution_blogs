@@ -2,7 +2,7 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
-ruby 'ruby 2.2.3p173'
+ruby "2.2.4"
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
