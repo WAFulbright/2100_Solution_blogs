@@ -22,4 +22,4 @@ test:
 
 production:
   <<: *default
-  database: db/puma
+  database: db/pg

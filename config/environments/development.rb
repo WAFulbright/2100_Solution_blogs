@@ -1,4 +1,4 @@
-2100Solutions::Application.configure do
+Application.configure do
    config.active_support.deprecation = :log
    config.cache_classes = false
 end
