@@ -3,4 +3,12 @@
 
 require File.expand_path('../config/application', __FILE__)
 
+require 'rake/dsl_definition'
+
 Rails.application.load_tasks
+
+module ::2100Solutions
+  class Application
+    include Rake::DSL
+  end
+end
