@@ -7,7 +7,7 @@ require 'rake/dsl_definition'
 
 Rails.application.load_tasks
 
-module ::2100Solutions do
+module ::2100Solutions
   class Application
     include Rake::DSL
   end
