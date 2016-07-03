@@ -3,7 +3,10 @@
 Rails.application.configure do
     # Settings specified here will take precedence over those in config/application.rb.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 28ddf4d4bff31b78fb08bf96ac00a0e911aec939
   # Code is not reloaded between requests.
   config.cache_classes = true
 
@@ -26,7 +29,10 @@ Rails.application.configure do
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
   config.serve_static_files = true
+<<<<<<< HEAD
 
+=======
+>>>>>>> 28ddf4d4bff31b78fb08bf96ac00a0e911aec939
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   config.assets.css_compressor = :sass
@@ -34,11 +40,11 @@ Rails.application.configure do
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = false
 
-  # Asset digests allow you to set far-future HTTP expiration dates on all assets,
-  # yet still be able to expire them through the digest params.
+  # Generate digests for assets URLs.
   config.assets.digest = true
 
-  # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
+  # Version of your assets, change this if you want to expire all your assets.
+  config.assets.version = '1.1'
 
   # Specifies the header that your server uses for sending files.
   # config.action_dispatch.x_sendfile_header = 'X-Sendfile' # for Apache
