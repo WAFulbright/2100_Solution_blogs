@@ -1,8 +1,3 @@
-Application.configure do
-   config.active_support.deprecation = :log
-   config.cache_classes = false
-end
-
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
