@@ -67,7 +67,7 @@ GEM
     minitest (5.11.3)
     nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
-    pg (1.1.4)
+    pg (0.21.0)
     puma (3.12.1)
     rack (1.6.11)
     rack-test (0.6.3)
@@ -138,7 +138,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails
   jquery-rails
-  pg
+  pg (~> 0.20)
   puma
   rails (~> 4.2.10)
   rails_12factor
