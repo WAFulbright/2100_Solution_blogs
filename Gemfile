@@ -31,11 +31,11 @@ gem 'jquery-rails'
 # end -->
 
 group :development do
-  gem 'puma'
   gem "sqlite3", "~> 1.3.6"
 end
 
 group :production do
+  gem 'puma'
   gem 'pg'
   gem 'rails_12factor'
 end
